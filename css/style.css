@@ -1,0 +1,390 @@
+@import url('http://fonts.cdnfonts.com/css/sf-pro-display');
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+	font-family: 'sf-pro-display', sans-serif;
+}
+.img1{
+    opacity: 0.3;
+    width: 1280px;
+    height: 630px;
+    position: relative;
+}
+nav{
+	width: 100%;
+	height: 45px;
+	background-color: #ffffff00;
+	line-height: 80px;
+	padding:0px 60px;
+	position:relative;
+    margin-top: -630px;
+}
+nav .logo{
+    font-size: 20px;
+    letter-spacing: 1px; 
+}
+nav .logo p{
+    float: left;
+    color:#ffffff;
+    font-style: bold;
+}
+nav ul{
+	float: right;
+}
+nav ul li{
+	display: inline-block;
+	list-style: none;
+}
+nav ul li a:link{
+	color:rgb(255, 255, 255);
+	text-decoration: none;
+	font-size: 20px;
+	padding:0px 20px;
+}
+nav ul li a:visited{
+	color:#ffffff;
+}
+li {
+    float: left;
+}
+h1 {
+    position: absolute;
+    top: 17%;
+    left: 4%;
+
+    font-size: 110px;
+
+    background: linear-gradient(#ffffff,#ffffff20);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+h2 {
+    position: absolute;
+    top: 39%;
+    left: 4%;
+
+    font-size: 110px;
+
+    background: linear-gradient(#ffffff,#ffffff20);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+h3 {
+    position: absolute;
+    top: 58%;
+    left: 4%;
+
+    font-size: 180px;
+
+    background: linear-gradient(#ffffff,#ffffff0f);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.box1 {
+    width: 350px;
+    height: 510px;  
+    padding: 50px;
+    margin-top: 40px;
+    margin-left: 847px;
+    background: #000000ac;
+    position: relative;
+
+    --angle: 0deg;
+  border: 1.7px solid;
+  border-image: linear-gradient(var(--angle), #0e93b1, #894fa5, #c93e47) 2;
+  animation: 5s rotate linear infinite;
+}
+@keyframes rotate {
+  to {
+    --angle: 360deg;
+  }
+}
+@property --angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}
+.img2{
+    width: 300px;
+    height: 300px;
+    margin-top: -80px;
+    margin-left: -26px;
+}
+.text1{
+    font-size: 28px;
+    font-weight: 40;
+    color: white;
+    text-align: CENTER;
+    margin-top: -290px;
+    margin-left: 760px;
+    position: relative;
+}
+
+input[type=text], select {
+    width: 290px;
+    height: 40px;  
+    padding: 20px;
+    background: #D9D9D9;
+    border: 1px solid red;
+    border-radius: 50px;
+    margin-top: 15px;
+    position: relative;
+  }
+  input[type=password], select {
+    width: 290px;
+    height: 40px;  
+    padding: 20px;
+    background: #D9D9D9;
+    border: 1px solid red;
+    border-radius: 50px;
+    margin-top: 15px;
+    position: relative;
+  }
+  input[type=submit] {
+        width: 100px;
+    height: 40px;  
+    background-image: linear-gradient(#ac8888,#7d2424ec);
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+  }
+  .text2{
+    font-size: 12px;
+    font-weight: 40;
+    color: rgba(255, 255, 255, 0.7);
+    text-align: CENTER;
+    margin-top: 10px;
+    margin-left: -160px;
+    position: relative;
+  }
+  .text3{
+    font-size: 14px;
+    font-weight: 40;
+    color: rgba(255, 255, 255, 0.7);
+    text-align: CENTER;
+    margin-top: 10px;
+    position: relative;
+  }
+
+  .box2 {
+    width: 940px;
+    height: 440px;  
+    padding: 45px;
+    margin-top: 40px;
+    background: #000000ac;
+    position: relative;
+    margin-top: 80px;
+    --angle: 0deg;
+  border: 1.7px solid;
+  border-image: linear-gradient(var(--angle), #0e93b1, #894fa5, #c93e47) 2;
+  animation: 5s rotate linear infinite;
+}
+@keyframes rotate {
+  to {
+    --angle: 360deg;
+  }
+}
+@property --angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}
+h4 {
+  position: absolute;
+  top: 5%;
+  left: 41.5%;
+  font-size: 40px;
+
+  background: linear-gradient(#ffffff,#ffffff0f);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+input[type=text1], select {
+  width: 280px;
+  height: 40px;  
+  padding: 20px;
+  background: #D9D9D9;
+  border: 1px solid red;
+  border-radius: 50px;
+  margin-top: 50px;
+  margin-left: -5px;
+  position: relative;
+}
+input[type=text2], select {
+  width: 280px;
+  height: 40px;  
+  padding: 20px;
+  background: #D9D9D9;
+  border: 1px solid red;
+  border-radius: 50px;
+  margin-top: 15px;
+  position: relative;
+}input[type=text3], select {
+  width: 280px;
+  height: 40px;  
+  padding: 20px;
+  background: #D9D9D9;
+  border: 1px solid red;
+  border-radius: 50px;
+  margin-top: 15px;
+  position: relative;
+}input[type=text4], select {
+  width: 280px;
+  height: 40px;  
+  padding: 20px;
+  background: #D9D9D9;
+  border: 1px solid red;
+  border-radius: 50px;
+  margin-top: 15px;
+  margin-left: -5px;
+  position: relative;
+}
+input[type=text5], select {
+  width: 565px;
+  height: 40px;  
+  padding: 20px;
+  background: #D9D9D9;
+  border: 1px solid red;
+  border-radius: 50px;
+  margin-top: 15px; 
+  position: relative;
+}
+input[type=text6], select {
+  width: 280px;
+  height: 40px;  
+  padding: 20px;
+  background: #D9D9D9;
+  border: 1px solid red;
+  border-radius: 50px;
+  margin-top: 15px; 
+  margin-left: -5px;
+  position: relative;
+}
+input[id=password], select {
+  width: 280px;
+  height: 40px;  
+  padding: 20px;
+  background: #D9D9D9;
+  border: 1px solid red;
+  border-radius: 50px;
+  position: relative;
+}
+input[id=cpassword], select {
+  width: 280px;
+  height: 40px;  
+  padding: 20px;
+  background: #D9D9D9;
+  border: 1px solid red;
+  border-radius: 50px;
+  position: relative;
+}
+.text4{
+  font-size: 12px;
+  font-weight: 40;
+  color: rgba(255, 255, 255, 0.7);
+  margin-top: 8px;
+  margin-left: 230px;
+  position: relative;
+}
+input[id=submit] {
+  width: 120px;
+height: 40px;  
+background-image: linear-gradient(#ac8888,#7d2424ec);
+color: white;
+padding: 10px 20px;
+font-size: 18px;
+margin: 8px 0;
+border: none;
+border-radius: 40px;
+margin-top: 30px;
+cursor: pointer;
+}
+a:visited {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+}
+a:link{
+  text-decoration: none;
+}
+.text5{
+  font-size: 14px;
+  font-weight: 40;
+  color: rgba(255, 255, 255, 0.7);
+  margin-top: 4px;
+  position: relative;
+}
+input[type=text8], select {
+  width: 280px;
+  height: 40px;  
+  padding: 20px;
+  background: #D9D9D9;
+  border: 1px solid red;
+  border-radius: 50px;
+  margin-top: 50px;
+  margin-left: -5px;
+  position: relative;
+}
+input[type=text9], select {
+  width: 565px;
+  height: 40px;  
+  padding: 20px;
+  background: #D9D9D9;
+  border: 1px solid red;
+  border-radius: 50px;
+  margin-top: 50px; 
+  position: relative;
+}
+h5 {
+  position: absolute;
+  top: 7%;
+  left: 5%;
+  font-size: 50px;
+
+  background: linear-gradient(#ffffff,#ffffff0f);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+input[id=forgot] {
+  width: 280px;
+height: 40px;  
+background-image: linear-gradient(#ac8888,#7d2424ec);
+color: white;
+padding: 10px 20px;
+font-size: 16px;
+margin: 8px 0;
+border: none;
+border-radius: 40px;
+margin-top: 20px;
+margin-left: -575px;
+cursor: pointer;
+}
+
+.box3 {
+  width: 940px;
+  height: 240px;  
+  padding: 45px;
+  margin-top: 40px;
+  background: #000000ac;
+  position: relative;
+  margin-top: 80px;
+  --angle: 0deg;
+border: 1.7px solid;
+border-image: linear-gradient(var(--angle), #0e93b1, #894fa5, #c93e47) 2;
+animation: 5s rotate linear infinite;
+}
+@keyframes rotate {
+to {
+  --angle: 360deg;
+}
+}
+@property --angle {
+syntax: '<angle>';
+initial-value: 0deg;
+inherits: false;
+}
